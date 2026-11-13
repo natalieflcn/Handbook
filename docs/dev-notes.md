@@ -34,8 +34,6 @@
 [x] [] git restore –staged <file> -- remove files from staging area (unadd changes)
 
 [x] [] git revert <commit> -- undoes a commit by creating a new commit that does the opposite
-[] [] git reset -- moves current branch back to an earlier commit (unstages changes, files untouched)
-[] [] git reset –soft -- keeps changes staged, files untouched
-[] [] git reset –hard -- staging area wiped, changes wiped
-
-testing git reset medium
+[x] [] git reset -- moves current branch back to an earlier commit (unstages changes, files untouched)
+[x] [] git reset –soft -- keeps changes staged, files untouched
+[x] [] git reset –hard -- staging area wiped, changes wiped
