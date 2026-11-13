@@ -41,4 +41,6 @@
 [] [] git reset –soft -- keeps changes staged, files untouched
 [] [] git reset –hard -- staging area wiped, changes wiped
 
+okay, i'm going to test out the rebase git command now
+
 okay, maybe i have to test out rebase from this file
