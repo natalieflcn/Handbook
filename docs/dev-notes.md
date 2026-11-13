@@ -34,7 +34,7 @@
 [] [] git stash pop -- brings your uncommitted changes back
 
 [x] [] git restore <file> -- discards uncommitted changes to a file
-[] [] git restore –staged <file> -- remove files from staging area (unadd changes)
+[x] [] git restore –staged <file> -- remove files from staging area (unadd changes)
 
 [] [] git revert <commit> -- undoes a commit by creating a new commit that does the opposite
 [] [] git reset -- moves current branch back to an earlier commit (unstages changes, files untouched)
