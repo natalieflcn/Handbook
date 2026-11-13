@@ -22,12 +22,14 @@
 
 [] git merge
 
-[] git diff -- shows changes that aren't staged yet
-[] git diff -- cached
+[] git diff -- shows changes that aren't added to staging area yet
+[] git diff --cached --shows changes that have been added to staging area, but not committed yet
+[] git diff main [branch] -- shows differences in the last commits between main branch and specified branch
+[] git diff HEAD [file] -- compares your last commit to the specified file
 [] git rebase
 [] git fetch -- get latest changes without merging
 [] git restore <file>
-[] git restore –staged <file>
+[] git restore –staged <file> -- remove files from staging area (unadd changes)
 [] git commit –amend
 [] git revert <commit>
 [] git reset –soft
