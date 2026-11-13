@@ -22,7 +22,7 @@
 [] [] git branch -d [branch] -- delete a branch
 [] [] git merge branch -- to merge changes onto main branch of local repo
 
-[] [] git merge -- combines another branch's commit in your current branch (if both branches committed, you'll get a merge commit/if both branches edited the same lines, you resolve the merge conflict by hand)
+[] [] git merge [branch] -- combines another branch's commit in your current branch (if both branches committed, you'll get a merge commit/if both branches edited the same lines, you resolve the merge conflict by hand)
 [] [] git rebase -- combines branches by replaying your commits on top of the other branch, creating a straight-line history with no merge commit
 
 [x] [] git diff -- shows changes that aren't added to staging area yet
@@ -40,3 +40,5 @@
 [] [] git reset -- moves current branch back to an earlier commit (unstages changes, files untouched)
 [] [] git reset –soft -- keeps changes staged, files untouched
 [] [] git reset –hard -- staging area wiped, changes wiped
+
+okay, maybe i have to test out rebase from this file
