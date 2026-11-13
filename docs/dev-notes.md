@@ -1,5 +1,5 @@
 **Git Commands**
-[x] [] [] git clone -- used initially to download a copy of the project for the first time
+[x] [] git clone -- used initially to download a copy of the project for the first time
 [] [] git pull -- used repeatedly during collaboration, to pull updates from team's remote changes (fetch+merge)
 [] [] git pull origin main -- pull changes from the remote repo onto main branch of local repo
 [] [] git fetch -- downloads latest commits without merging (changing your own branches/files)
@@ -44,3 +44,5 @@
 okay, i'm going to test out the rebase git command now
 
 okay, maybe i have to test out rebase from this file
+
+testing rebase again
