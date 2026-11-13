@@ -19,10 +19,11 @@
 [x] [] git switch
 
 [x] [x] git branch -- logs all your branches and displays active branch
-[x] [] git branch -d [branch] -- delete a branch
+[] [] git branch -d [branch] -- delete a branch
+[] [] git merge branch -- to merge changes onto main branch of local repo
 
-[x] [] git merge [branch] -- combines another branch's commit in your current branch (if both branches committed, you'll get a merge commit/if both branches edited the same lines, you resolve the merge conflict by hand)
-[x] [] git rebase -- combines branches by replaying your commits on top of the other branch, creating a straight-line history with no merge commit
+[] [] git merge [branch] -- combines another branch's commit in your current branch (if both branches committed, you'll get a merge commit/if both branches edited the same lines, you resolve the merge conflict by hand)
+[] [] git rebase -- combines branches by replaying your commits on top of the other branch, creating a straight-line history with no merge commit
 
 [x] [] git diff -- shows changes that aren't added to staging area yet
 [x] [] git diff --cached --shows changes that have been added to staging area, but not committed yet
@@ -30,7 +31,7 @@
 [x] [] git diff HEAD [file] -- compares the uncommitted changes in the file from your working directory to your last commit
 
 [x] [] git stash -- sets aside uncommitted changes to give you a clean working directory, so you can switch branches
-[x] [] git stash pop -- brings your uncommitted changes back
+[] [] git stash pop -- brings your uncommitted changes back
 
 [x] [] git restore <file> -- discards uncommitted changes to a file
 [x] [] git restore –staged <file> -- remove files from staging area (unadd changes)
@@ -39,3 +40,9 @@
 [] [] git reset -- moves current branch back to an earlier commit (unstages changes, files untouched)
 [] [] git reset –soft -- keeps changes staged, files untouched
 [] [] git reset –hard -- staging area wiped, changes wiped
+
+okay, i'm going to test out the rebase git command now
+
+okay, maybe i have to test out rebase from this file
+
+testing rebase again!
